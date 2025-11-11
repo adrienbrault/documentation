@@ -135,7 +135,7 @@ You can post **updates** over time to keep users informed, and then mark the not
 <!-- Image placeholder
 {{< img src="#" alt="Status page showing a scheduled maintenance window for upcoming infrastructure work" style="width:100%;" >}}-->
 
-Maintenance windows allow you to proactively communicate planned downtime or service impact before it happens. Unlike [notices](#add-a-notice) which are used for unplanned incidents, maintenance windows are scheduled in advance for infrastructure upgrades, system maintenance, database migrations, and other planned work. Proactively communicate scheduled downtime so you can keep your customers informed and lessen the load on the support team.
+Maintenance windows allow you to proactively communicate planned downtime or service impact before it happens. Unlike [notices](#add-a-notice) which are used for unplanned incidents, maintenance windows are scheduled in advance for infrastructure upgrades, system maintenance, database migrations, and other planned work. Proactively communicate scheduled downtime so you can keep your customers informed and lessen the load on your support team.
 
 ### Publish a maintenance window
 
@@ -146,7 +146,7 @@ Maintenance windows allow you to proactively communicate planned downtime or ser
    | **Title** | Clear description of the maintenance activity <br>*Example: Database infrastructure upgrade* |
    | **Maintenance window** | Scheduled time range for the maintenance window, including start and end times |
    | **Message** | Set the message that you want to automatically publish for each status update |
-   | **Components impacted** | One or more components that will be affected during maintenance |
+   | **Components impacted** | One or more components that is affected during maintenance |
    | **Impact** | Expected level of impact per component during the window: <br>- Operational <br>- Degraded Performance <br>- Partial Outage <br>- Major Outage |
    | **Notify Subscribers** | Toggle to send advance notification to subscribers |
 1. Click **Review Notice** and click **Publish Notice**.
