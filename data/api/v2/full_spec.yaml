@@ -41678,12 +41678,6 @@ components:
             $ref: '#/components/schemas/RestrictionQueryWithoutRelationships'
           type: array
       type: object
-    RestrictionQueryRelationships:
-      description: Relationships of the restriction query object.
-      properties:
-        roles:
-          $ref: '#/components/schemas/RelationshipToRoles'
-      type: object
     RestrictionQueryResponseIncludedItem:
       description: An object related to a restriction query.
       discriminator:
@@ -41758,7 +41752,7 @@ components:
           example: 79a0e60a-644a-11ea-ad29-43329f7f58b5
           type: string
         relationships:
-          $ref: '#/components/schemas/RestrictionQueryRelationships'
+          $ref: '#/components/schemas/UserRelationships'
         type:
           $ref: '#/components/schemas/LogsRestrictionQueriesType'
       type: object
