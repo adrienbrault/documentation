@@ -22,12 +22,12 @@ further_reading:
 
 {{< img src="service_management/status_pages/shopist_status_page.png" alt="Example status page showing service components with their current status and recent incident updates" style="width:100%;" >}}
 
-Status Pages is part of Datadog's Incident Response suite, alongside On-Call and Incident Management. It lets your team proactively communicate **service availability**, **incidents**, and **planned maintenance** with customers or internal stakeholders through a shareable web page.
+Status Pages is part of Datadog's Incident Response suite, alongside On-Call and Incident Management. It lets your team proactively communicate **service availability**, **degradation**, and **planned maintenance** with customers or internal stakeholders through a shareable web page.
 
 Use Status Pages to:
 
 * Share the availability of critical systems and features
-* Communicate service disruptions clearly during incidents
+* Communicate service disruptions clearly during service degradations
 * Announce scheduled maintenance and planned downtime in advance
 * Reduce inbound support volume with proactive email notifications
 
@@ -139,7 +139,7 @@ Maintenance windows allow you to proactively communicate planned downtime or ser
 
 ### Publish a maintenance window
 
-1. From a status page, click **Schedule Maintenance** to open the maintenance window modal.
+1. From any status page, click **Schedule Maintenance** to open the maintenance window modal.
 1. Under **Notice type**, select the "Scheduled Maintenance" tab and provide:
    | Field | Description |
    | ---- | ---- |
