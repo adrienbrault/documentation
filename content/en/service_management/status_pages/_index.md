@@ -139,19 +139,19 @@ Maintenance windows allow you to proactively communicate planned downtime or ser
 
 ### Publish a maintenance window
 
-1. From any status page, click **Schedule Maintenance** to open the maintenance window modal.
+1. From a status page, click **Public Notice** to open the maintenance window modal.
 1. Under **Notice type**, select the "Scheduled Maintenance" tab and provide:
    | Field | Description |
    | ---- | ---- |
    | **Title** | Clear description of the maintenance activity <br>*Example: Database infrastructure upgrade* |
    | **Maintenance window** | Scheduled time range for the maintenance window, including start and end times |
-   | **Message** | Set the message that you want to automatically publish for each status update |
+   | **Messages** | Set the messages that you want to automatically publish for each status update |
    | **Components impacted** | One or more components that is affected during maintenance |
-   | **Impact** | Expected level of impact per component during the window: <br>- Operational <br>- Degraded Performance <br>- Partial Outage <br>- Major Outage |
-   | **Notify Subscribers** | Toggle to send advance notification to subscribers |
+   | **Impact** | Default impact per component during a maintenance window. If an incident occurs during maintenance, components can transition to: <br>- Degraded Performance <br>- Partial Outage <br>- Major Outage |
+   | **Notify Subscribers** | Toggle to notify subscribers in advance and for each automatic update|
 1. Click **Review Notice** and click **Publish Notice**.
 
-After scheduling, the maintenance window appears on the status page with the scheduled time range. When the window begins, component status automatically updates to "Under Maintenance" and returns to "Operational" when it ends (unless manually overridden). You can post updates if plans change, reschedule the window, or cancel it if no longer needed.
+After scheduling, the maintenance window appears on the status page under "Upcoming Maintenance" with the scheduled time range. When the window begins, component status automatically updates to "Undergoing Maintenance" and returns to "Operational" when it ends (unless manually overridden). You can edit the messages, post updates if plans change, reschedule the window, or cancel it if no longer needed.
 
 ## Email subscriptions
 
